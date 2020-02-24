@@ -1,7 +1,7 @@
 **html2canvas html截图插件图片放大清晰度解决方案，支持任意放大倍数，解决原插件图片偏移问题**
 ----------------------------------------------------
 
-Author:youzebin (2016.12.6)
+Author: Alias You (2016.12.6)
 插件下载地址：https://github.com/niklasvh/html2canvas
 
 1.首先引入html2canvas.js html2canvas 0.5.0-beta4 最新版即可
