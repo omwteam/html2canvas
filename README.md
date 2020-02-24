@@ -288,4 +288,4 @@ html2canvas(shareContent, opts).then(function (canvas) {
            margin: 0 auto;
      } 
 
-有疑问请在下方留言 或加我qq:302829055 谢谢
+有疑问请在下方留言，可以在群里讨论和交流 QQ群：172270493，欢迎加入哦
