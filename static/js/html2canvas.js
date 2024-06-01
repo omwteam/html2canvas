@@ -1008,7 +1008,9 @@
                 canvas = crop(renderer.canvas, {width: bounds.width * scale, height:bounds.height * scale, top: bounds.top *scale, left: bounds.left *scale, x: 0, y: 0});
                 // console.log(canvas.width)
 
-            }
+            }else if (options.transform && options.transform.rotate ){
+                canvas = scaledCanvas(renderer, bounds, options.transform.rotate);
+            } 
             else {
                 canvas = crop(renderer.canvas, {width:  options.width != null ? options.width : bounds.width, height: options.height != null ? options.height : bounds.height, top: bounds.top, left: bounds.left, x: 0, y: 0});
             }
